@@ -45,18 +45,22 @@ header nav ul li a{
 header nav ul li a:hover{
     color: #ff0000;
 }
+.space{
+    padding: 10px;
+}
 .home {
     display: flex;
     justify-content: center;
     padding: 10px;
     flex-direction: column;
-    height: 100vh;
+    height: 137vh;
     font-size: 20px;
     font-weight: 600;
     color: #000;
 }
 .home h1{
     text-align: center;
+    text-decoration: underline;
 }
 .home p{
     text-align: left;
@@ -64,13 +68,15 @@ header nav ul li a:hover{
     left: 10px;
     padding: 10px;
     margin-right: 350px;
+    font-size: 25px;
+    font-weight: 300;
 }
 .home img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 620px;
-    margin-right: 120px;
+    margin-left: 80%;
+    margin-right: 0px;
     margin-top: 50px;
     width: 150px;
     height: 150px;
@@ -89,13 +95,14 @@ header nav ul li a:hover{
     justify-content: center;
     padding: 10px;
     flex-direction: column;
-    height: 5vh;
+    height: 35vh;
     font-size: 20px;
     font-weight: 600;
     color: #000;
 }
 .about h1{
     text-align: center;
+    text-decoration: underline;
 }
 .about p{
     text-align: right;
@@ -103,6 +110,8 @@ header nav ul li a:hover{
     right: 10px;
     padding: 10px;
     margin-right: 30px;
+    font-size: 25px;
+    font-weight: 300;
 }
 .about img{
     display: flex;
@@ -228,7 +237,7 @@ footer img{
     transition: 0.5s ;
     align-items: center;
     justify-content: center;
-    margin-left: 300px;
+    margin-left: 800px;
 }
 footer img:hover{
     transform: scale(1.1);
@@ -328,7 +337,7 @@ footer h2:hover{
         justify-content: center;
         padding: 2px;
         flex-direction: column;
-        height: 160vh;
+        height: 200vh;
         font-size: 20px;
         font-weight: 500;
         color: #000;
@@ -340,7 +349,7 @@ footer h2:hover{
         text-decoration: underline;
     }
     .home p{
-        text-align: left;
+        text-align: center;
         justify-content: left;
         left: 10px;
         padding: 3px;
@@ -381,7 +390,7 @@ footer h2:hover{
         font-size: 20px;
     }
     .about p{
-        text-align: right;
+        text-align: center;
         justify-content: left;
         right: 10px;
         padding: 10px;
