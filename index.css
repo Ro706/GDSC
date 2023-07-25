@@ -290,8 +290,8 @@ footer .copyright {
 
 /* Add styles for the member's picture */
 .members img {
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
 
