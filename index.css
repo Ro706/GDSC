@@ -310,6 +310,17 @@ footer .copyright {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  /* Add styles for the menu bar logo */
+  nav.menu-bar #logo {
+    width: 40%;
+    padding-left: 70px;
+
+  }
+  /* Adding style for the options */
+  .options{
+    margin-top: 20px;
+    font-size: 14px;
+  }
   nav.menu-bar .contents {
     flex-direction: column;
     align-items: center;
@@ -326,12 +337,63 @@ footer .copyright {
   section.about h1 {
     font-size: 2rem;
   }
-
   .space {
     flex-direction: column;
   }
 
   .card {
     max-width: 100%;
+  }
+  /* Add styles for the event gdscimg */
+  .gdscimg {
+    height: 100px;
+    width: 100px;
+  }
+  /* Add styles for the home-content adjusting the font size of the text */
+  .home-content{
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  /* Add styles for the about-content adjusting the font size of the text */
+  .about-content{
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+  }
+  /* Add styles for the about heading */
+  .about h1{
+    font-size: 25px;
+  }
+  /* Add styles for the event boxes */
+  .event{
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    transition: all 1s;
+  }
+  /* Add styles for the event heading */
+  .event h1{
+    font-size: 25px;
+  }
+  /* Add styles for the team member container */
+  .members-container{
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    transition: all 1s;
+  }
+  /* Add styles for the footer */
+  footer ul{
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    transition: all 1s;
+  }
+
+  footer img{
+    margin-bottom: 10px;
+    height: 50%;
+    width: 50%;
   }
 }
