@@ -378,7 +378,6 @@ footer .copyright {
   /* Adjust the max-width as needed */
 }
 
-
 /* Add styles for the team section */
 .team {
   text-align: center;
@@ -407,8 +406,8 @@ footer .copyright {
   position: relative;
   padding: 20px;
   max-width: 200px;
+  height: 330px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
   overflow: hidden;
   /* Hide any content that goes beyond the card */
@@ -422,7 +421,7 @@ footer .copyright {
   left: 0;
   right: 0;
   bottom: 30%;
-  background: linear-gradient(180deg, #8A2BE2 50%, #fff 50%);
+  background: linear-gradient(180deg, #8A2BE2 30%, #fff 30%);
   z-index: -1;
   /* Place the gradient layer behind the content */
 }
@@ -432,22 +431,43 @@ footer .copyright {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border-radius: 50px;
-  z-index: 1;
 }
 
 /* Add styles for the member's name (optional) */
 .members-name {
   font-weight: bold;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 /* Add styles for the member's role (optional) */
 .members-role {
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
 }
-
+.member-social .fa-linkedin {
+   color:rgb(30, 122, 161);
+   font-size: 25px;
+}
+.member-social .fa-github {
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+}
+.member-social {
+  display: inline-block;
+  margin-top:40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.member-social .fa-linkedin:hover {
+  font-size: 28px;
+  transition: all 0.3s ease-in-out;
+}
+.member-social .fa-github:hover {
+  font-size: 28px;
+  transition: all 0.3s ease-in-out;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {
@@ -532,8 +552,13 @@ footer .copyright {
   .members-container {
     flex-direction: column;
     align-items: center;
-    font-size: 10px;
     transition: all 1s;
+    /* Optional: Allow member cards to wrap on smaller screens */
+  }
+  .members{
+    width: 150px;
+    transition: all 1s;
+    margin: 0 auto;
   }
 
   /* Add styles for the footer */
