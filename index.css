@@ -406,10 +406,11 @@ footer .copyright {
   position: relative;
   padding: 20px;
   max-width: 200px;
-  height: 330px;
+  height: 260px;
   border-radius: 8px;
   margin: 10px;
   overflow: hidden;
+  box-shadow: 0px 0px 4px 1px rgba(161, 160, 160, 0.75);
   /* Hide any content that goes beyond the card */
 }
 
@@ -421,7 +422,7 @@ footer .copyright {
   left: 0;
   right: 0;
   bottom: 30%;
-  background: linear-gradient(180deg, #8A2BE2 30%, #fff 30%);
+  background: linear-gradient(180deg, #8A2BE2 40%, #fff 40%);
   z-index: -1;
   /* Place the gradient layer behind the content */
 }
