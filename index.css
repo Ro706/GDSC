@@ -599,7 +599,7 @@ display: none;
   }
   .web-box{
     flex-direction: column;
-    top:500px;
+    top:550px;
     width: 340px;
     left:-10px;
     height: auto;
@@ -635,7 +635,7 @@ display: none;
     width: 340px;
     height: auto;
     left:-890px;
-    top:800px;
+    top:900px;
     font-size: 10px;
     position: relative;
     padding:2px;
@@ -657,7 +657,7 @@ display: none;
     width: 340px;
     height: auto;
     left:-390px;
-    top:1000px;
+    top:1090px;
     font-size: 10px;
     position: relative;
     padding:2px;
