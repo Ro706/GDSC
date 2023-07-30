@@ -536,8 +536,10 @@ footer .copyright {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  
+
   .home{
-    border: 2px solid red;
+    border: 2px;
   }
   header .home h1 {
     font-size: 2rem;
@@ -557,19 +559,20 @@ footer .copyright {
     height: 70rem;
     width: 90rem;
     margin-left:-800px ;
-    margin-top:250px;
+    margin-top:270px;
   }
   .aiml-img{
+    background-color: white;
     height: 100rem;
     width: 100rem;
     margin-left:-370px ;
-    margin-top:280px;
+    margin-top:360px;
   }
   .opensrc-img{
     height: 100rem;
-    width: 100rem;
+    width: 90rem;
     margin-left:-1200px ;
-    margin-top:340px;
+    margin-top:370px;
     padding: 10px;
     padding-bottom: 10px;
   }
@@ -588,23 +591,26 @@ footer .copyright {
     padding-left: -10px;
   }
   .android-box .android-text{
-    font-size: 20px;
-    border: 1px;
+    font-size: 18px;
+    padding-right: 60px;
+    border: 10px;
+    align-items: left;
     text-align: center;
-    margin-left: 20px;
+    margin-left: -10px;
     margin-top:10px;
   }
   .android-box .android-heading{
     flex-direction: column;
     font-size: 40px;
     margin-top:10px;
-    margin-left: -5px;
+    margin-left: -45px;
   }
   /* add styles for the web section */
   .web-box .web-heading{
     flex-direction: column;
     font-size: 40px;
     margin-top:20px;
+    margin-left:-9px;
     text-align: center;
   }
   .web-box{
@@ -620,6 +626,15 @@ footer .copyright {
     padding:2px;
     text-align: center;
   }
+  .web-box .web-text{
+    font-size: 18px;
+    padding-right: 60px;
+    border: 10px;
+    align-items: left;
+    text-align: center;
+    margin-left: -10px;
+    margin-top:10px;
+  }
   /* Add styles for the aiml section */
   .aiml-box{
     flex-direction: column;
@@ -632,6 +647,15 @@ footer .copyright {
     padding:2px;
     text-align: center;
   }
+  .aiml-box .aiml-text{
+    font-size: 18px;
+    padding-right: 60px;
+    border: 10px;
+    align-items: left;
+    text-align: center;
+    margin-left: -10px;
+    margin-top:10px;
+  }
   /* add styles for the opensrc section */
   .opensrc-box{
     flex-direction: column;
@@ -643,6 +667,22 @@ footer .copyright {
     position: relative;
     padding:2px;
     text-align: center;
+  }
+  .opensrc-box .opensrc-heading{
+    flex-direction: column;
+    font-size: 40px;
+    margin-top:20px;
+    margin-left:-66px;
+    text-align: center;
+  }
+  .opensrc-box .opensrc-text{
+    font-size: 18px;
+    padding-right: 60px;
+    border: 10px;
+    align-items: left;
+    text-align: center;
+    margin-left: -10px;
+    margin-top:10px;
   }
   section .about h1 {
     font-size: 2rem;
@@ -688,6 +728,7 @@ footer .copyright {
   /* Add styles for the event boxes */
   .event {
     margin-top: 450px;
+    margin-left: -100px;
     flex-direction: column;
     align-items: center;
     font-size: 10px;
@@ -697,6 +738,9 @@ footer .copyright {
   /* Add styles for the event heading */
   .event h1 {
     font-size: 25px;
+  }
+  .team{
+    margin-left:-100px ;
   }
 
   /* Add styles for the team member container */
@@ -712,6 +756,9 @@ footer .copyright {
     margin-bottom: 20px;
   }
   /* Add styles for the footer */
+  footer{
+    margin-left: -100px;
+  }
   footer ul {
     flex-direction: column;
     align-items: center;
@@ -766,8 +813,10 @@ footer .copyright {
     background-color: #E8E8E8;
 
   }
-
   .options>li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+  nav .menu-bar{
+    width:300px;
   }
 }
