@@ -371,7 +371,7 @@ footer h2 {
 
 footer .social a {
   margin: 0 10px;
-  color: #ccc;
+  color: #686767;
   font-size: 1.2rem;
 }
 
@@ -547,7 +547,7 @@ footer .copyright {
   /* section heading */
   #heading{
     font-size: 1.5rem;
-    margin-left:10px ;
+    margin-left:-55px ;
   }
   .android-img{
     height: 70rem;
@@ -566,13 +566,13 @@ footer .copyright {
     height: 100rem;
     width: 100rem;
     margin-left:-370px ;
-    margin-top:430px;
+    margin-top:450px;
   }
   .opensrc-img{
     height: 100rem;
     width: 90rem;
     margin-left:-1200px ;
-    margin-top:400px;
+    margin-top:430px;
     padding: 10px;
     padding-bottom: 10px;
   }
@@ -609,9 +609,12 @@ footer .copyright {
   /* add styles for the web section */
   .web-box .web-heading{
     flex-direction: column;
+    border: 2px ;
+    padding: 25px;
+    left:-100px;
     font-size: 40px;
     margin-top:20px;
-    margin-left:-9px;
+    margin-left:-25px;
     text-align: center;
   }
   .web-box{
@@ -638,6 +641,15 @@ footer .copyright {
     margin-top:10px;
   }
   /* Add styles for the aiml section */
+  .aiml-box .aiml-heading{
+    flex-direction: column;
+    border: 2px ;
+    padding: 20px;
+    font-size: 40px;
+    margin-top:20px;
+    margin-left:-33px;
+    text-align: center;
+  }
   .aiml-box{
     flex-direction: column;
     width: 340px;
@@ -732,7 +744,7 @@ footer .copyright {
   /* Add styles for the event boxes */
   .event {
     margin-top: 450px;
-    margin-left: -100px;
+    margin-left: -90px;
     flex-direction: column;
     align-items: center;
     font-size: 10px;
@@ -744,7 +756,7 @@ footer .copyright {
     font-size: 25px;
   }
   .team{
-    margin-left:-100px ;
+    margin-left:-90px ;
   }
 
   /* Add styles for the team member container */
@@ -763,6 +775,16 @@ footer .copyright {
   footer{
     margin-left: -100px;
   }
+  footer .social a .fa-linkedin{
+    color:rgb(30, 122, 161);
+  }
+  footer .social a .fa-youtube{
+    color:rgb(255, 34, 0);
+  }
+  footer .social a .fa-instagram{
+    color:rgb(255, 0, 174);
+  }
+ 
   footer ul {
     flex-direction: column;
     align-items: center;
