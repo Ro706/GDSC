@@ -296,7 +296,6 @@ div.opensrc-text {
   margin-bottom: 20px;
 }
 
-
 .box {
   display: flex;
   align-self: center;
@@ -544,10 +543,11 @@ footer .copyright {
   }
   /* section heading */
   #heading{
-    font-size: 1.9rem;
-    margin-top:-400px;
+    position:relative;
+    font-size: 2.5rem;
     margin-left: -30px;
-    background-color: #ffffff;
+    margin-top: 290px;
+    text-decoration: underline;
   }
 .android-img,
 .web-img,
@@ -558,7 +558,7 @@ display: none;
   /* add styles for the android section */
   .android-box{
     flex-direction: column;
-    top:298px;
+    top:300px;
     right:935px;
     width: 340px;
     height: auto;
@@ -569,6 +569,14 @@ display: none;
     text-align: center;
     padding-left: -10px;
   }
+  section .android-box{
+    background-color: #f1f3f4;
+    width:380px;
+    padding-right:0px ;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+  }
   .android-box .android-text{
     font-size: 18px;
     padding-right: 60px;
@@ -578,14 +586,13 @@ display: none;
     text-align: center;
     margin-left: -10px;
     margin-top:1px;
-    background-color: #ffffff;
   }
   .android-box .android-heading{
     flex-direction: column;
+    width:400px;
     font-size: 40px;
     margin-top:10px;
     margin-left: -45px;
-    background-color: white;
   }
   /* add styles for the web section */
   .web-box .web-heading{
@@ -640,6 +647,14 @@ display: none;
     position: relative;
     padding:2px;
     text-align: center;
+  }
+  section .aiml-box{
+    background-color: #f1f3f4;
+    width:380px;
+    padding-right:0px ;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
   }
   .aiml-box .aiml-text{
     font-size: 18px;
@@ -737,7 +752,9 @@ display: none;
   .team{
     margin-left:-90px ;
   }
-
+  .team-heading{
+    padding-left:100px ;
+  }
   /* Add styles for the team member container */
   .members-container {
     flex-direction: column;
