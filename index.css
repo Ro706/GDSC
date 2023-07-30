@@ -599,7 +599,7 @@ display: none;
   }
   .web-box{
     flex-direction: column;
-    top:550px;
+    top:600px;
     width: 340px;
     left:-10px;
     height: auto;
@@ -635,7 +635,7 @@ display: none;
     width: 340px;
     height: auto;
     left:-890px;
-    top:900px;
+    top:1000px;
     font-size: 10px;
     position: relative;
     padding:2px;
@@ -657,7 +657,7 @@ display: none;
     width: 340px;
     height: auto;
     left:-390px;
-    top:1090px;
+    top:1200px;
     font-size: 10px;
     position: relative;
     padding:2px;
@@ -667,15 +667,14 @@ display: none;
     flex-direction: column;
     font-size: 40px;
     margin-top:20px;
-    margin-left:-66px;
+    margin-left:-26px;
     text-align: center;
   }
   .opensrc-box .opensrc-text{
     font-size: 18px;
-    padding-right: 60px;
+    padding-right: 30px;
     padding-left: 10px;
-    border: 5px;
-    align-items: left;
+    border: 1px;
     text-align: center;
     margin-left: -10px;
     margin-top:10px;
@@ -723,7 +722,7 @@ display: none;
 
   /* Add styles for the event boxes */
   .event {
-    margin-top: 900px;
+    margin-top: 1200px;
     margin-left: -90px;
     flex-direction: column;
     align-items: center;
