@@ -536,7 +536,9 @@ footer .copyright {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-
+  .home{
+    border: 2px solid red;
+  }
   header .home h1 {
     font-size: 2rem;
   }
@@ -722,9 +724,6 @@ footer .copyright {
     height: 60%;
     width: 60%;
   }
-}
-
-@media (max-width: 768px) {
   .menu-button-container {
     display: flex;
   }
@@ -739,7 +738,11 @@ footer .copyright {
     justify-content: center;
     align-items: center;
   }
-
+  /* align the menu in left */
+  .menu-button{
+    position: relative;
+    margin-left: -2370px;
+  }
   #menu-toggle~.options li {
     height: 0;
     margin: 0;
@@ -748,15 +751,15 @@ footer .copyright {
   }
 
   #menu-toggle:checked~.options li {
-    border: 1px solid #9f9a9a;
     height: 2.5em;
     padding: 0.5em;
   }
 
   .options>li {
     display: flex;
-    justify-content: center;
-    margin: 0;
+    justify-content: left;
+    font-size: 8px;
+    margin: 0px;
     padding: 0.5em 0;
     width: 100%;
     color: black;
