@@ -811,7 +811,12 @@ display: none;
   /* align the menu in left */
   .menu-button{
     position: relative;
-    margin-left: -2370px;
+    margin-right:730px;
+    margin-top: -30px;
+  }
+  .menu-bar a img{
+    height: 50px;
+    width: 250px;
   }
   #menu-toggle~.options li {
     height: 0;
@@ -827,7 +832,7 @@ display: none;
 
   .options>li {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-size: 8px;
     margin: 0px;
     padding: 0.5em 0;
