@@ -571,7 +571,7 @@ display: none;
   }
   section .android-box{
     background-color: #f1f3f4;
-    width:345px;
+    width:370px;
     padding-right:0px ;
     padding-left: 0px;
     padding-top: 0px;
@@ -650,7 +650,7 @@ display: none;
   }
   section .aiml-box{
     background-color: #f1f3f4;
-    width:345px;
+    width:370px;
     padding-right:0px ;
     padding-left: 0px;
     padding-top: 0px;
@@ -738,7 +738,7 @@ display: none;
   /* Add styles for the event boxes */
   .event {
     margin-top: 1200px;
-    margin-left: -90px;
+    margin-left: 0px;
     flex-direction: column;
     align-items: center;
     font-size: 10px;
@@ -747,7 +747,7 @@ display: none;
 
   /* Add styles for the event heading */
   .event h1 {
-    font-size: 25px;
+    font-size: 45px;
   }
   .team{
     margin-left:-90px ;
